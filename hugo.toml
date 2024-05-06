@@ -1,3 +1,148 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "http://localhost:1313" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+title = "27e Juli"
+theme = "hugo-universal-theme"
+themesDir = "themes"
+languageCode = "se-sv"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "sv"
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# Define the number of posts per page
+paginate = 10
+
+# not pluralize title pages by default
+pluralizelisttitles = false
+
+[menu]
+
+
+# Main menu
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact/"
+    weight     = 7
+
+
+    disabled_logo = true
+    logo_text = "test"
+
+    logo = "fot.jpg"
+    logo_small = "fot.jpg"
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
+        <br>
+        <strong>Great Britain</strong>
+      </p>
+      """
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = false
+    text = ""
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carouselCustomers]
+    items = 6
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselTestimonials]
+    items = 4
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more information take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.features]
+    enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more information take a look at the README.
+
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more information take a look at the README.
+    title = "Att göra i Värmland"
+    subtitle = "Här har vi samlat lite tips för hitresta men kul saker att göra när man är här."
+
+[params.valkomna]
+    enable = true
+    icon = "far fa-file-alt"
+    title = "Namngivning och <br>30-årsfirande"
+    subtitle = "I januari blev vi föräldrar och i sommar fyller Klara 30 år. Detta måste givetvis firas! Välkomna dubbelt upp!"
+#    link_url = "#"
+#    link_text = "Check other homepages"
+
+
+[params.clients]
+    enable = true
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more information take a look at the README.
+    title = "Övernattning"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "Namngivning"
+    subtitle = "Kalla det vad du vill namngivning, välkomstfest, releaseparty.. Vi börjar helt enkelt med det viktigaste att fira ankomsten av Vera & Leon i våra liv. Någon form av ceremoni efterföljt av fika helt enkelt."
+    hide_summary = false
+
+[params.tretti]
+    enable = true
+    icon = "far fa-file-alt"
+    title = "30-årsfirande"
+    subtitle = "Fram mot kvällen övergår fokuset på festens tredje viktigaste person, Klara och hennes 30 år på jorden. Middag, skratt och gemenskap, gött häng helt enkelt. Vem vet, du kanske har danspjucksen på dig?"
+#    link_url = "#"
+#    link_text = "Check other homepages"
+
+[params.hitta_hit]
+    enable = false
+    title = "Hitta hit"
+    subtitle = "Vi ska vara på norrgården i Krisitnehanm. Lättast hittar man genom att ta bil.... Parkering finns. För den som inte vill köra hem på kvällen är det gångavstånd till centrum."
+    hide_summary = false
+
+
+[params.footer.recent_posts]
+    enable = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+[markup.goldmark.renderer]
+unsafe= true

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+        {{ partial "valkomna.html" . }}
+
+        {{ partial "recent_posts.html" . }}     
+
+        {{ partial "tretti.html" . }}
+
+        {{ partial "hitta_hit.html" . }}
+
+        {{ partial "features.html" . }}
+
+        {{ partial "sova.html" . }}   
+
+        {{ partial "gora_i_varmland.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
