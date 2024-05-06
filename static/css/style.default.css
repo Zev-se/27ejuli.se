@@ -1777,13 +1777,13 @@ fieldset[disabled] .btn-template-primary.active {
   border-bottom: solid 1px #999999;
 }
 .bar.background-gray {
-  background: #f8fff9;
+  background: #fbfffb;
 }
 .bar.background-gray-dark {
   background: #555555;
 }
 .bar.background-white {
-  background: #f8fff9;
+  background: #fbfffb;
 }
 .bar.background-image-fixed-1 {
   background: url('../img/fixed-background-1.jpg') center top no-repeat;
