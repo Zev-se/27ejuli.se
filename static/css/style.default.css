@@ -3597,9 +3597,11 @@ a.list-group-item.active > .badge,
 .bar.background-image-fixed-4 {
   background: url('../img/fixed-background-4.jpg') center top no-repeat;
   background-size: cover;
+  padding: 200px 0;
 }
 .bar.background-image-fixed-3 {
   background: url('../img/fixed-background-3.jpg') center top no-repeat;
   background-size: cover;
+  padding: 200px 0;
 }
 }
