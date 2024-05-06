@@ -1334,6 +1334,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 .testimonials .item .testimonial .name-picture img {
+  display: none;
   float: right;
   width: 60px;
   border-radius: 30px;
