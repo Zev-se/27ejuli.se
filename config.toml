@@ -95,7 +95,7 @@ pluralizelisttitles = false
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
-    title = "Att göra i Värmland"
+    title = "Innan du åker hem"
     subtitle = "Här har vi samlat lite tips för hitresta med kul aktiviteter att göra när man är här."
 
 [params.valkomna]
@@ -125,7 +125,7 @@ pluralizelisttitles = false
     enable = true
     icon = "far fa-file-alt"
     title = "30-årsfirande"
-    subtitle = "Fram mot kvällen övergår fokuset till dagens tredje viktigaste person, Klara och hennes 30 år på jorden. Middag, skratt och gemenskap utlovas!"
+    subtitle = "Fram mot kvällen övergår fokuset till dagens tredje viktigaste person, Klara och hennes 30 år på jorden. <br>Middag, skratt och gemenskap utlovas!"
 #    link_url = "#"
 #    link_text = "Check other homepages"
 

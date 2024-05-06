@@ -87,6 +87,7 @@ button {
 }
 p.lead {
   margin-bottom: 40px;
+  text-align: center;
 }
 section,
 div.section {
@@ -1768,7 +1769,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 400px 0;
+  padding: 200px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
@@ -1776,7 +1777,7 @@ fieldset[disabled] .btn-template-primary.active {
   border-bottom: solid 1px #999999;
 }
 .bar.background-gray {
-  background: #eeeeee;
+  background: #f8fff9;
 }
 .bar.background-gray-dark {
   background: #555555;
@@ -1865,7 +1866,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .portfolio-showcase p.lead {
-  color: #555555;
+  color: #373636;
   margin-bottom: 20px;
 }
 .portfolio-showcase p {
