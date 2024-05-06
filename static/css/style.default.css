@@ -1796,15 +1796,15 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar.background-image-fixed-3 {
   background: url('../img/fixed-background-3.jpg') center top no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  padding: 200px 0;
+  background-attachment: fixed;
+  padding: 600px 0;
 }
 .bar.background-image-fixed-4 {
   background: url('../img/fixed-background-4.jpg') center top no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  padding: 200px 0;
+  background-attachment: fixed;
+  padding: 600px 0;
 }
 .bar.color-white h1,
 .bar.color-white h2,
@@ -3591,4 +3591,15 @@ a.list-group-item.active > .badge,
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 15px;
   right: 15px;
+}
+
+@media (max-width: 900px){
+.bar.background-image-fixed-4 {
+  background: url('../img/fixed-background-4.jpg') center top no-repeat;
+  background-size: cover;
+}
+.bar.background-image-fixed-3 {
+  background: url('../img/fixed-background-3.jpg') center top no-repeat;
+  background-size: cover;
+}
 }
