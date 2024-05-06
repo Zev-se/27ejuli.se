@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "http://27juli.se" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "27e Juli"
 theme = "hugo-universal-theme"
 themesDir = "themes"
@@ -96,7 +96,7 @@ pluralizelisttitles = false
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
     title = "Att göra i Värmland"
-    subtitle = "Här har vi samlat lite tips för hitresta men kul saker att göra när man är här."
+    subtitle = "Här har vi samlat lite tips för hitresta med kul aktiviteter att göra när man är här."
 
 [params.valkomna]
     enable = true
@@ -118,21 +118,21 @@ pluralizelisttitles = false
 [params.recent_posts]
     enable = true
     title = "Namngivning"
-    subtitle = "Kalla det vad du vill namngivning, välkomstfest, releaseparty.. Vi börjar helt enkelt med det viktigaste att fira ankomsten av Vera & Leon i våra liv. Någon form av ceremoni efterföljt av fika helt enkelt."
+    subtitle = "Kalla det vad du vill namngivning, välkomstfest, releaseparty... Vi börjar helt enkelt med det viktigaste att fira ankomsten av Vera & Leon i våra liv. Någon form av ceremoni efterföljt av fika helt enkelt."
     hide_summary = false
 
 [params.tretti]
     enable = true
     icon = "far fa-file-alt"
     title = "30-årsfirande"
-    subtitle = "Fram mot kvällen övergår fokuset på festens tredje viktigaste person, Klara och hennes 30 år på jorden. Middag, skratt och gemenskap, gött häng helt enkelt. Vem vet, du kanske har danspjucksen på dig?"
+    subtitle = "Fram mot kvällen övergår fokuset till dagens tredje viktigaste person, Klara och hennes 30 år på jorden. Middag, skratt och gemenskap utlovas!"
 #    link_url = "#"
 #    link_text = "Check other homepages"
 
 [params.hitta_hit]
     enable = false
     title = "Hitta hit"
-    subtitle = "Vi ska vara på norrgården i Krisitnehanm. Lättast hittar man genom att ta bil.... Parkering finns. För den som inte vill köra hem på kvällen är det gångavstånd till centrum."
+    subtitle = "Vi ska vara på Norrgården i Krisitnehanm. Lättast tar man sig hit med bil, parkering finns. För den som inte vill köra hem på kvällen är det gångavstånd till centrum."
     hide_summary = false
 
 
