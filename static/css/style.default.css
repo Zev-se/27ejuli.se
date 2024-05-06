@@ -1,6 +1,6 @@
 /* Themed colors */
 :root {
-  --primary-accent: #38a7bb;
+  --primary-accent: #598a60;
   --navbar-border-top: #20616d;
   --button-border: #2a7d8c;
   --link-focus: #267280;
@@ -90,7 +90,7 @@ p.lead {
 }
 section,
 div.section {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .no-mb {
   margin-bottom: 0 !important;
@@ -1768,7 +1768,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 60px 0;
+  padding: 400px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
@@ -1782,7 +1782,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: #555555;
 }
 .bar.background-white {
-  background: #fff;
+  background: #f8fff9;
 }
 .bar.background-image-fixed-1 {
   background: url('../img/fixed-background-1.jpg') center top no-repeat;
@@ -3603,5 +3603,10 @@ a.list-group-item.active > .badge,
   background: url('../img/fixed-background-3.jpg') center top no-repeat;
   background-size: cover;
   padding: 200px 0;
+}
+.bar {
+  position: relative;
+  background: var(--primary-accent);
+  padding: 40px 0;
 }
 }

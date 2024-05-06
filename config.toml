@@ -118,7 +118,7 @@ pluralizelisttitles = false
 [params.recent_posts]
     enable = true
     title = "Namngivning"
-    subtitle = "Kalla det vad du vill namngivning, välkomstfest, releaseparty... Vi börjar helt enkelt med det viktigaste att fira ankomsten av Vera & Leon i våra liv. Någon form av ceremoni efterföljt av fika helt enkelt."
+    subtitle = "Kalla det vad du vill namngivning, välkomstfest, releaseparty... Vi börjar med det viktigaste att fira ankomsten av Vera & Leon i våra liv. Någon form av ceremoni efterföljt av fika helt enkelt."
     hide_summary = false
 
 [params.tretti]
